@@ -4,12 +4,28 @@
     <excludeFromCompile>
       <directory url="file://$PROJECT_DIR$/simple-consumer-produce/src/main/resources/archetype-resources" includeSubdirectories="true" />
     </excludeFromCompile>
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="simple-consumer-produce" />
+        <module name="OrderService" />
+        <module name="DeliveryService" />
+        <module name="MailingService" />
+        <module name="spring-demo" />
+      </profile>
+    </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="DeliveryService" target="17" />
-      <module name="MailingService" target="17" />
-      <module name="OrderService" target="17" />
-      <module name="simple-consumer-produce" target="17" />
-      <module name="spring-demo" target="17" />
+      <module name="simple-consumer-producer" target="17" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="DeliveryService" options="-parameters" />
+      <module name="MailingService" options="-parameters" />
+      <module name="OrderService" options="-parameters" />
+      <module name="spring-demo" options="-parameters" />
+    </option>
   </component>
 </project>

@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DeliveryService/DeliveryService.iml" filepath="$PROJECT_DIR$/DeliveryService/DeliveryService.iml" />
-      <module fileurl="file://$PROJECT_DIR$/MailingService/MailingService.iml" filepath="$PROJECT_DIR$/MailingService/MailingService.iml" />
-      <module fileurl="file://$PROJECT_DIR$/OrderService/OrderService.iml" filepath="$PROJECT_DIR$/OrderService/OrderService.iml" />
-      <module fileurl="file://$PROJECT_DIR$/simple-consumer-produce/simple-consumer-produce.iml" filepath="$PROJECT_DIR$/simple-consumer-produce/simple-consumer-produce.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-demo/spring-demo.iml" filepath="$PROJECT_DIR$/spring-demo/spring-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/baselinekafka.iml" filepath="$PROJECT_DIR$/.idea/baselinekafka.iml" />
     </modules>
   </component>
 </project>
