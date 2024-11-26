@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/simple-consumer-produce/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
+    <bytecodeTargetLevel>
+      <module name="DeliveryService" target="17" />
+      <module name="MailingService" target="17" />
+      <module name="OrderService" target="17" />
+      <module name="simple-consumer-produce" target="17" />
+      <module name="spring-demo" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
